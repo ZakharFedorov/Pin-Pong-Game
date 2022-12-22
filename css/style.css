@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    overflow:hidden;
+}
+.background{
+    min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: red;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 3px;
+    font-size: 50px;
+}
+#usercntbtn{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: red;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    font-size: 30px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: red;
+    width: 200px;
+}
+#usercntbtndesc{
+    position: absolute;
+    top: 60%;
+    left: 24%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: green;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    font-size: 30px;
+}
+#diffbtn{
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: red;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    font-size: 30px;
+    border-radius: 20px;
+    border-width: 3px;
+    width: 200px;
+    border-color: red;
+}
+#diffbtndesc{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: green;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    font-size: 30px;
+}
+#scorebtn{
+    position: absolute;
+    top: 70%;
+    left: 67%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: red;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    font-size: 30px;
+    border-radius: 20px;
+    border-width: 3px;
+    width: 200px;
+    border-color: red;
+}
+#scorebtndesc{
+    position: absolute;
+    top: 60%;
+    left: 68.5%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: green;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    font-size: 30px;
+}
+#score1{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: red;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2.5px;
+    font-size: 40px;
+    visibility: hidden;
+}
+#score2{
+    position: absolute;
+    top: 10%;
+    left: 66%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: red;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2.5px;
+    font-size: 40px;
+    visibility: hidden;
+}
+#gameStat {
+    color: white;
+    position: absolute; 
+    top: 20%;
+    left: 45%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    font-size: 40px;
+}
+#start{
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: red;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2.5px;
+    font-size: 40px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: red;
+}
+#Menu{
+    position: absolute;
+    top: 5%;
+    left: 47.5%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: red;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: red;
+    visibility: hidden;
+}
